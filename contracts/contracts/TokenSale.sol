@@ -7,7 +7,7 @@ interface IERC20 {
 }
 
 contract TokenSale {
-    uint tokenPriceInWei = 1 ether;
+    uint tokenPriceInWei = 0.01 ether;
 
     IERC20 token;
 
